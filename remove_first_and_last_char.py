@@ -7,7 +7,7 @@ def remove_char(s):
     if len(s) < 2:
         print("Error: Cannot process string less than 2 characters in length.")
     else:
-        new_string = my_string[1:-1]
+        new_string = s[1:-1]
             
         print(new_string)
     
